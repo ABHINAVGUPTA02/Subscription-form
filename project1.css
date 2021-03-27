@@ -1,0 +1,129 @@
+*{
+    box-sizing: content-box;
+    font-family: 'Karla', sans-serif;
+    
+}
+body{
+    background-color: grey;
+}
+
+body div#container{
+    background-color: white;
+    border: solid black;
+    border-width: 2px;
+    width: 50%;
+    height: 70%;
+    position: relative;
+    left: 28%;
+    position: absolute;
+    bottom: 128px;
+    border-radius: 10px;
+    border: none;
+    
+}
+body span#h{
+    color:  hsl(179, 62%, 43%);
+    font-size: 22px;
+}
+
+body span#hd{
+    color:  hsl(71, 73%, 54%);
+    font-size: 16px;
+}
+
+body p#d{
+    color: hsl(218, 22%, 67%);
+    font-size: 16px;
+}
+
+
+body section span#p1{
+    font-weight: 700;
+    size: 200%;
+}
+
+body div#box{
+    box-sizing: content-box;
+    padding: 10px;  
+        
+}
+
+body div#box1{
+    background-color:hsl(179, 62%, 43%) ;
+    width: 50%;
+    color: white;
+    height: 240px;
+    padding: 8px;
+    overflow: hidden;
+    border-radius: 0px 0px 0px 10px;
+} 
+
+body div#box2{
+   background-color: hsla(179, 62%, 43%, 0.753) ;
+   width: 48%;
+   position: absolute;
+   left: 52%;
+   bottom: 0px;
+   height: 256.3px;
+   overflow: hidden;
+   color: white;
+   border-radius: 0px 0px 10px 0px;
+}
+
+
+body div span#h1{
+    font-size: 20px;
+}
+
+body span#hh1{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+body span#p1{
+    font-size: 16px;
+    word-spacing: 5px;
+    background-color: none;
+}
+
+body span#pp1{
+    opacity: 0.5;
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+    font-stretch: expanded;
+    
+} 
+body div span#h2{
+    font-size: 20px;
+    padding: 8px;
+    padding-top: 5px;
+}
+ 
+body div p#p2{
+    font-size: 16px;
+    word-spacing: 5px;
+    padding: 8px;
+    opacity: 0.7;
+}
+
+input[type="button"]{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    position: relative;
+    left: 28px;
+    width: 75%;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover{
+    background-color: hsl(71, 56%, 40%);
+}
+
+@media screen and (width:600px){
+    body{
+        background-color: black;
+    }
+}
